@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
+    <title></title>
+    <style media="screen">
+      body{
+        margin: 0;
+      }
+    </style>
+
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="slideshow.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="v-m.css">
+    <link rel="stylesheet" href="googlemap.css">
+    <link rel="stylesheet" href="footer.css">
+
+  </head>
+  <body>
+
+<!-- bia logo -->
+
+    <div class="header" id="home">
+      <img src="weblogo/weblogo.png"width="50%"height="50%">
+    </div>
+
+<!-- navigation bar -->
+<div class="navbar">
+  <a href="#home">Home</a>
+  <div class="dropdown">
+    <a href class="dropbtn">About
+      <i class="fa fa-caret-down"></i>
+    </a>
+    <div class="dropdown-content">
+      <a href="#news">News</a>
+      <a href="#announcement">Announcement</a>
+      <a href="#location">Location</a>
+    </div>
+  </div>
+  <a href="#footer">Contact</a>
+</div>
+
+<!-- slideshow -->
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <img src="slideshow/s.1.1.jpg" style="width:100%">
+  <div id="text">Caption Text</div>
+</div>
+
+<div class="mySlides fade">
+  <img src="slideshow/s.1.2.jpg" style="width:100%">
+  <div id="text">Caption Two</div>
+</div>
+
+<div class="mySlides fade">
+  <img src="slideshow/s.1.3.jpg" style="width:100%">
+  <div id="text">Caption Three</div>
+</div>
+
+</div>
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+
+    <script src ="slideshow.js"></script>
+
+<!-- content -->
+    <div class="row">
+      <div class="side">
+        <h1 id="announcement">ANNOUNCEMENT</h1>
+        <h2>Add a title here</h2>
+        <div class="a-img" style="height:auto;">
+          <img class="announcement-img" src="announcement/a.1.1.jpg" alt="" >
+        </div>
+        <p>Add a short description about the news here</p>
+          <h2>Add a title here</h2>
+        <div class="a-img" style="height:auto;">
+          <img class="announcement-img" src="announcement/a.1.1.jpg" alt="" >
+        </div>
+        <p>Add a short description about the news here</p>
+          <h2>Add a title here</h2>
+        <div class="a-img" style="height:auto;">
+          <img class="announcement-img" src="announcement/a.1.1.jpg" alt="" >
+        </div>
+        <p>Add a short description about the news here</p>
+        <br>
+        <a href = "#"><h3>READ MORE<h3></a>
+
+      </div>
+      <div class="main">
+        <h1 id="news">NEWS</h1>
+        <h2>2019 Global Youth Forum & Global Academic Olympiad</h2>
+        <p>2019 Global Youth Forum & Global Academic Olympiad is held at South Korea and four of our students together with Ptr. Michelle Kim and Ma'am Aurora Quinones went to South Korea to join the competition.</p>
+        <a href = "#"><h3>READ MORE<h3></a>
+        <br>
+        <h2>Baguio International Academy Online Learner Enrollment and Survey Form</h2>
+        <p>Due to the Covid-19 Pandemic, our school , Baguio International Academy, designed this Online Enrollment for School Year 2020-2021 for the convenience and safety of every family of our learners and the school personnel as well. Please fill up this online enrollment form with a sense of honesty, accuracy and you may assure the confidentiality of this form. For more info. and queries regarding other school matters, please contact us (074) 446-9964 / 09237014995 / 09179449274. May God bless you.</p>
+        <h2>Title description</h2>
+        <p>add the description of the news here</p>
+        <a href = "#"><h3>READ MORE<h3></a>
+        <br>
+        <h2>Title Description</h2>
+        <p>add the description of the news here</p>
+        <a href = "#"><h3>READ MORE<h3></a>
+      </div>
+    </div>
+
+<!-- vision-mission -->
+
+<div class='vm-column'>
+  <div class='vm'>
+    <div>
+      <h5 class='vm-h5'>Vision</h5>
+        <p>Education is the fulfillment of spiritual responsibilities (Deut. 6:6-7; Proverbs 22:6)
+        with the goal of bringing children to the saving knowledge of Jesus Christ, developing
+        in them unimpeachable character through the ssimilartion os Scriptural norms, and properly
+        equipping them with the skills necessary for useful function in life as citizen, and
+        as leaders in their community.</p>
+    </div>
+    <div>
+      <h5 class='vm-h5'>Mission</h5>
+        <p>To provide quality elementary and high school education using a Christian curriculum
+        that produces academically qualified, morally developed, intensely nationalistic,
+        and absolutely God-fearing young men and women who are eager to be trained
+        for definite Christian service.</p>
+    </div>
+    <div>
+      <h5 class='vm-h5'>Pledge to the Christian flag</h5>
+        <p>I pledge allegiance to the Christian flag and to the Savior for whose kingdom it stands.
+          One Savior crucified, risen, and coming again with life and liberty for all who believe.</p>
+    </div>
+    <div>
+      <h5 class='vm-h5'>Pledge to the Bible</h5>
+        <p>I pledge allegiance to the Bible, God's Holy Word, I will make it a light unto my
+          and a lamp unto my path. I will hide its words in my heart that I may not sin against God.</p>
+      </div>
+  </div>
+</div>
+
+
+<div id="location" class="googlemap">
+<iframe src="https://www.google.com/maps/embed?pb=!1m20!1m8!1m3!1d2334.6019066100994!2d120.58757290653143!3d16.42214163125699!3m2!1i1024!2i768!4f13.1!4m9!3e2!4m3!3m2!1d16.4220711!2d120.59054239999999!4m3!3m2!1d16.4191859!2d120.5842199!5e1!3m2!1sen!2sph!4v1604479039792!5m2!1sen!2sph"
+ frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+</div>
+
+
+<!-- footer -->
+<footer>
+  <div id="footer">
+    <div class="row">
+  <div class="column">
+    <img class="logo" src="logo.jpg" alt="">
+  </div>
+  <div class="column">
+    <h2>Contacts</h2>
+    <p>Contact No.</p>
+    <p>Email</p>
+    <p>Location.</p>
+    <a href = "#"><h3>Facebook<h3></a>
+    <p>Some text..</p>
+  </div>
+  <div class="column">
+    <h2>Links</h2>
+    <a href = "#"><h3>link<h3></a>
+    <a href = "#"><h3>link<h3></a>
+    <a href = "#"><h3>link<h3></a>
+    <a href = "#"><h3>link<h3></a>
+    <a href = "#"><h3>link<h3></a>
+  </div>
+</div>
+
+</div>
+<div class="copyright">
+  <h6>Copyright &copy Baguio International Academy , All rights reserved.</h6>
+</div>
+</footer>
+  </body>
+</html>
